@@ -1,61 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Public Holidays </title>
-    <link rel="stylesheet" href="/CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="scripts.js"></script>
 </head>
 <body>
+  <header>
+    <h1>Header Title</h1>
+    <p>Subheading text</p>
+  </header>
+  
+  <section>
     <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-date">2023-01-01</div>
-          <div class="timeline-content">New Years' day - The start of the new year. </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-date">2023-02-14</div>
-          <div class="timeline-content">Valentine's Day</div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-date">2023-03-21</div>
-          <div class="timeline-content">Human Rights Day - March 21, 2024</div>
+      <div class="timeline-item js--fadeInLeft">
+        <div class="timeline-content">
+          <h2 class="timeline-img-header">Timeline Item 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#">Read more</a>
+          <span class="date">Jan 1, 2020</span>
         </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-03-29</div>
-        <div class="timeline-content">Good Friday - March 29, 2024</div>
+      <div class="timeline-item js--fadeInRight">
+        <div class="timeline-content">
+          <h2 class="timeline-img-header">Timeline Item 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#">Read more</a>
+          <span class="date">Feb 1, 2020</span>
+        </div>
       </div>
+      <!-- Add more timeline items as needed -->
     </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-04-01</div>
-        <div class="timeline-content">Family Day - April 1, 2024</div>
-      </div>
-    </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-04-27</div>
-        <div class="timeline-content">Freedom Day - April 27, 2024</div>
-      </div>
-    </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-05-01</div>
-        <div class="timeline-content">Workers' Day - May 1, 2024</div>
-      </div>
-    </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-06-16</div>
-        <div class="timeline-content">Youth Day - June 16, 2024</div>
-      </div>
-    </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-08-09</div>
-        <div class="timeline-content">National Women's Day - August 9, 2024</div>
-      </div>
-    </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2023-09-24</div>
-        <div class="timeline-content">Heritage Day - September 24, 2024</div>
-      </div>
-    </div>
-      <script src="/JavaScript/index.js"></script>
+  </section>
 </body>
 </html>
